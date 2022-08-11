@@ -1,0 +1,133 @@
+/*  Syntax for CSS is selector{property:value}
+    Otherwise known as Who, What, How.
+*/
+/*************************TAG SELECTORS***********************/
+body
+{
+    background-color: black;
+    color: white;
+    font-family: "Franklin Gothic", sans-serif;
+    font-size: 1em; 
+    margin: 0px; /* overrides the user agent stylesheet */
+    text-align: center;
+}
+
+a
+{
+    color: #B22234;
+}
+h1
+{
+    font-size: 4rem; /* See notes on px, % and em/rem use; */
+    line-height: 0.5;
+    margin: 50px auto 0 auto; /* uses circular shorthand, i.e top, right, bottom, left */
+}
+
+h2
+{
+    color: #3C3B6E;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+h3
+{
+    color: #B22234;
+}
+
+hr
+{
+    border-style: dotted none none;
+    border-width : 10px;
+    opacity: 75%;
+    color: gold;
+    width: 128px;
+}
+
+/*************************CLASS SELECTORS*********************/
+.bottom-container
+{
+    background-color: #3C3B6E;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    padding: 25px;
+}
+
+.middle-container
+{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 1.5rem;
+    padding: 25px;
+}
+
+.top-container
+{
+    background-color:  #3C3B6E;
+    padding-top: 100px;
+    position: relative;
+}
+
+.bottom-cloud
+{
+    position: absolute;
+    bottom: 60%;
+    left: 25%;
+}
+
+.top-cloud
+{
+    position: absolute;
+    right: 25%;
+    top: 5%;
+}
+
+.yours_truly
+{
+    border: 5px solid #555;
+    border-color: gold;
+}
+.skills
+{
+    line-height: 1;
+    margin: auto;
+    text-align: left;
+}
+
+.contact-me
+{
+    padding-bottom: 0px;
+}
+
+.btn {
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 20px;
+    background: #B22234;
+    /* padding: 10px 10px 10px 10px; */
+    text-decoration: none;
+    white-space: normal;
+  }
+  
+  .btn:hover {
+    background: #3C3B6E;
+    text-decoration: none;
+  }
+
+  .center-table
+  {
+    color: #3C3B6E;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  .footer-link
+  {
+    text-decoration: none;
+    
+  }
+/* Red #B22234 White #FFFFFF Blue #3C3B6E USA! */
