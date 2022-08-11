@@ -118,6 +118,8 @@ hr
     color: #FFFFFF;
     display: inline-block;
     font-size: 20px;
+    padding: 5px;
+    text-align: center;
     text-decoration: none;   
   }
   
