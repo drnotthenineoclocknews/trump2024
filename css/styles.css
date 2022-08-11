@@ -16,6 +16,12 @@ a
 {
     color: #B22234;
 }
+
+p
+{
+    line-height: 1.25;
+}
+
 h1
 {
     font-size: 4rem; /* See notes on px, % and em/rem use; */
@@ -28,6 +34,7 @@ h2
     color: #3C3B6E;
     font-size: 2.5rem;
     font-weight: bolder;
+    padding-bottom: 10px;
 }
 
 h3
@@ -40,6 +47,7 @@ hr
     border-style: dotted none none;
     border-width : 10px;
     opacity: 75%;
+    padding: 10px;
     color: gold;
     width: 128px;
 }
@@ -56,7 +64,7 @@ hr
 .middle-container
 {
     background-color: #FFFFFF;
-    color: #000000;
+    color: #40514E;
     font-size: 1.5rem;
     padding: 25px;
 }
@@ -82,6 +90,12 @@ hr
     top: 5%;
 }
 
+.intro
+{
+    width: 50%;
+    margin: auto;
+    padding-top: 25px;
+}
 .yours_truly
 {
     border: 5px solid #555;
@@ -89,7 +103,6 @@ hr
 }
 .skills
 {
-    line-height: 1;
     margin: auto;
     text-align: left;
 }
@@ -100,16 +113,12 @@ hr
 }
 
 .btn {
-    -webkit-border-radius: 8;
-    -moz-border-radius: 8;
-    border-radius: 8px;
+    border-radius: 8px; /* creates round corners */
+    background: #B22234;
     color: #FFFFFF;
     display: inline-block;
     font-size: 20px;
-    background: #B22234;
-    /* padding: 10px 10px 10px 10px; */
-    text-decoration: none;
-    white-space: normal;
+    text-decoration: none;   
   }
   
   .btn:hover {
